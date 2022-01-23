@@ -42,3 +42,11 @@ hs_err_pid*
  */*.pb
  .idea/*.xml
 
+ HELP.md
+ logs/spring-boot-logger.log
+ logs/
+ target/
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+
