@@ -21,3 +21,24 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+/shelf/
+/workspace.xml
+
+
+# Gradle and Maven with auto-import
+ .idea/artifacts
+ .idea/compiler.xml
+ .idea/jarRepositories.xml
+ .idea/modules.xml
+ .idea/*.iml
+ .idea/modules
+ *.iml
+ *.ipr
+
+
+ # files Intellij added that I don't think are needed
+ */*.pb
+ .idea/*.xml
+
