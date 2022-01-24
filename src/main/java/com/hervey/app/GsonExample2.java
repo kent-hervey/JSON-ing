@@ -12,10 +12,10 @@ public class GsonExample2 {
 
         Gson gson = new Gson();
 
-        try (Reader reader = new FileReader("staff.json")) {
+        try (Reader reader = new FileReader("learnings.json")) {
 
             // Convert JSON File to Java Object
-            Staff staff = gson.fromJson(reader, Staff.class);
+            Learning staff = gson.fromJson(reader, Learning.class);
 
             // print staff
             System.out.println(staff);
