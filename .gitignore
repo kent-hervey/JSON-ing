@@ -67,3 +67,8 @@ hs_err_pid*
 /.idea/sonarlint/issuestore/index.pb
 /target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 /JSON-ing.iml
+
+
+#others
+.DS_Store
+src/.DS_Store
