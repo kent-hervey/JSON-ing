@@ -15,6 +15,7 @@ public class GsonExample2 {
         try (Reader reader = new FileReader("learnings.json")) {
 
             // Convert JSON File to Java Object
+            //TODO handle for JsonSyntaxException
             Learning staff = gson.fromJson(reader, Learning.class);
 
             // print staff
